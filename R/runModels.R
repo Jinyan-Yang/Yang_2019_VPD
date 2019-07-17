@@ -4,7 +4,7 @@ source("r/readSpotAmb.R")
 source('r/load.r')
 
 # 
-spot.amb.nov.2013 <- (spot.amb)#[spot.amb$Campaign == "2013Nov",]
+spot.amb.nov.2013 <- (spots.amb)#[spot.amb$Campaign == "2013Nov",]
 # spot.amb.nov.2013$LWP.pd <- mean(gs.wp.sap.lai.df$WP[gs.wp.sap.lai.df$Measurement == "Predawn"])
 spot.amb.nov.2013$LWP.pd <- spot.amb.nov.2013$Predawn.wp
 euc.plc <- list(SX = 32.389,P50 = 4.055)
